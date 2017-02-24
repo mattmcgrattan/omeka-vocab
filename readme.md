@@ -28,5 +28,5 @@ RDF Content
 
 Namespace: ttp://www.w3.org/2011/content#
 Prefix: cnt
-Local: cnt.rdf
+Local: cnt.xml
 
