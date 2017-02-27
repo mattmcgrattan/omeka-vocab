@@ -9,37 +9,37 @@ populated on ingest of a new IIIF object. But having them stored in Omeka-S, rat
 always retrieving from the JSON-LD may be useful for performance and page-rendering.
 
 
-@id 					? dcterms:identifier (what are you using at the moment?)
-
-@type					rdf:type
-
-format					dc:format
-
-viewingDirection		sc:viewingDirection
-
-viewingHint				sc:viewingHint
-
-navDate					sc:presentationDate
-
-label 					rdfs:label
-
-description				dcterms:description
-
-thumbnail				foaf:thumbnail
-
-attribution				sc:attributionLabel
-
-license					dcterms:rights
-
-logo					foaf:logo
-
-within*					dcterms:isPartOf
-
-rendering*				dcterms:hasFormat
-
-related*				dcterms:relation
-
-seeAlso*				rdfs:seeAlso
+@id	? dcterms:identifier (what are you using at the moment?)
+	
+@type	rdf:type
+	
+format	dc:format
+	
+viewingDirection	sc:viewingDirection
+	
+viewingHint	sc:viewingHint
+	
+navDate	sc:presentationDate
+	
+label	rdfs:label
+	
+description	dcterms:description
+	
+thumbnail	foaf:thumbnail
+	
+attribution	sc:attributionLabel
+	
+license	dcterms:rights
+	
+logo	foaf:logo
+	
+within*	dcterms:isPartOf
+	
+rendering*	dcterms:hasFormat
+	
+related*	dcterms:relation
+	
+seeAlso*	rdfs:seeAlso
 
 One omission is metadata. Those are multiple label/value pairs, with an optional language set.
 
