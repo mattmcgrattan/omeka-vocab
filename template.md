@@ -8,8 +8,9 @@ These may not all be
 populated on ingest of a new IIIF object. But having them stored in Omeka-S, rather than
 always retrieving from the JSON-LD may be useful for performance and page-rendering.
 
-| @id              | ? dcterms:identifier (what are you using at the moment?) |
+| Field            | Vocab |
 |------------------|----------------------------------------------------------|
+| @id              | ? dcterms:identifier (what are you using at the moment?) |
 | @type            | rdf:type                                                 |
 | format           | dc:format                                                |
 | viewingDirection | sc:viewingDirection                                      |
