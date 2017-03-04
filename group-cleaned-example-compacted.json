@@ -1,0 +1,60 @@
+{
+  "@id": "http://52.210.135.27/api/item_sets/15",
+  "@type": [
+    "http://omeka.org/s/vocabs/o#ItemSet",
+    "http://purl.org/dc/dcmitype/InteractiveResource"
+  ],
+  "http://omeka.org/s/vocabs/o#created": {
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value": "2017-03-04T19:55:04+00:00"
+  },
+  "http://omeka.org/s/vocabs/o#id": 15,
+  "http://omeka.org/s/vocabs/o#is_open": false,
+  "http://omeka.org/s/vocabs/o#is_public": true,
+  "http://omeka.org/s/vocabs/o#items": {
+    "@id": "http://52.210.135.27/api/items?item_set_id=15"
+  },
+  "http://omeka.org/s/vocabs/o#owner": {
+    "@id": "http://52.210.135.27/api/users/1",
+    "http://omeka.org/s/vocabs/o#id": 1
+  },
+  "http://omeka.org/s/vocabs/o#resource_class": {
+    "@id": "http://52.210.135.27/api/resource_classes/27",
+    "http://omeka.org/s/vocabs/o#id": 27
+  },
+  "http://omeka.org/s/vocabs/o#resource_template": {
+    "@id": "http://52.210.135.27/api/resource_templates/6",
+    "http://omeka.org/s/vocabs/o#id": 6
+  },
+  "http://purl.org/dc/terms/conformsTo": {
+    "@id": "http://xmlns.com/foaf/spec/#term_Person",
+    "http://omeka.org/s/vocabs/o#label": "Person"
+  },
+  "http://purl.org/dc/terms/description": "A crowd-source group for a person",
+  "http://purl.org/dc/terms/hasPart": [
+    {
+      "@id": "http://52.210.135.27/api/items/11"
+    },
+    {
+      "@id": "http://52.210.135.27/api/items/12"
+    },
+    {
+      "@id": "http://52.210.135.27/api/items/13"
+    },
+    {
+      "@id": "http://52.210.135.27/api/items/14"
+    }
+  ],
+  "http://purl.org/dc/terms/title": "Person",
+  "http://www.example.org/ns/crowds#derivedAnnoCombine": "True",
+  "http://www.example.org/ns/crowds#derivedAnnoExternalize": "False",
+  "http://www.example.org/ns/crowds#derivedAnnoHumanReadable": "False",
+  "http://www.example.org/ns/crowds#derivedAnnoMotivatedBy": {
+    "@id": "http://www.w3.org/ns/oa#tagging",
+    "http://omeka.org/s/vocabs/o#label": "tagging"
+  },
+  "http://www.example.org/ns/crowds#derivedAnnoSerialize": "True",
+  "http://www.example.org/ns/crowds#uiChoice": "madoc:boxdraw",
+  "http://www.example.org/ns/crowds#uiGroup": "madoc:compactForm",
+  "http://www.w3.org/2000/01/rdf-schemalabel": "Person"
+}

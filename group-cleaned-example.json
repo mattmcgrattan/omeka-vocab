@@ -1,0 +1,150 @@
+{
+  "@context": {
+    "bibo": {
+      "@id": "http://purl.org/ontology/bibo/", 
+      "vocabulary_id": "3", 
+      "vocabulary_label": "Bibliographic Ontology"
+    }, 
+    "cnt": "http://www.w3.org/2011/content#", 
+    "crowds": {
+      "@id": "http://www.example.org/ns/crowds#", 
+      "vocabulary_id": "34", 
+      "vocabulary_label": "Crowd Source Test"
+    }, 
+    "dcndl": {
+      "@id": "http://ndl.go.jp/dcndl/terms/", 
+      "vocabulary_id": "27", 
+      "vocabulary_label": "National Diet Library in Japan Metadata Terms"
+    }, 
+    "dcterms": {
+      "@id": "http://purl.org/dc/terms/", 
+      "vocabulary_id": "1", 
+      "vocabulary_label": "Dublin Core"
+    }, 
+    "dctype": {
+      "@id": "http://purl.org/dc/dcmitype/", 
+      "vocabulary_id": "2", 
+      "vocabulary_label": "Dublin Core Type"
+    }, 
+    "doap": {
+      "@id": "http://usefulinc.com/ns/doap#", 
+      "vocabulary_id": "14", 
+      "vocabulary_label": "Description of a Project (DOAP) vocabulary"
+    }, 
+    "exif": {
+      "@id": "http://www.w3.org/2003/12/exif/ns", 
+      "vocabulary_id": "12", 
+      "vocabulary_label": "Exif"
+    }, 
+    "foaf": {
+      "@id": "http://xmlns.com/foaf/0.1/", 
+      "vocabulary_id": "4", 
+      "vocabulary_label": "Friend of a Friend"
+    }, 
+    "fresnel": {
+      "@id": "http://www.w3.org/2004/09/fresnel#", 
+      "vocabulary_id": "19", 
+      "vocabulary_label": "Fresnel: RDF and style vocab"
+    }, 
+    "iiif": {
+      "@id": "http://iiif.io/api/image/2#", 
+      "vocabulary_id": "15", 
+      "vocabulary_label": "IIIF Image API Ontology"
+    }, 
+    "o": "http://omeka.org/s/vocabs/o#", 
+    "rdf": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+      "vocabulary_id": "18", 
+      "vocabulary_label": "RDF "
+    }, 
+    "rdfs": {
+      "@id": "http://www.w3.org/2000/01/rdf-schema", 
+      "vocabulary_id": "8", 
+      "vocabulary_label": "The RDF Schema vocabulary (RDFS)"
+    }, 
+    "sc": {
+      "@id": "http://iiif.io/api/presentation/2#", 
+      "vocabulary_id": "10", 
+      "vocabulary_label": "Shared Canvas"
+    }, 
+    "schema": {
+      "@id": "http://schema.org/", 
+      "vocabulary_id": "28", 
+      "vocabulary_label": "Schema.org"
+    }, 
+    "svcs": {
+      "@id": "http://rdfs.org/sioc/services#", 
+      "vocabulary_id": "13", 
+      "vocabulary_label": "SIOC Services Ontology Module"
+    }, 
+    "time": "http://www.w3.org/2006/time#", 
+    "xhtml": {
+      "@id": "http://www.w3.org/1999/xhtml/vocab#", 
+      "vocabulary_id": "22", 
+      "vocabulary_label": "XHTML"
+    }, 
+    "oa": {
+      "@id": "http://www.w3.org/ns/oa#", 
+      "vocabulary_id": "11", 
+      "vocabulary_label": "OA Test"
+    }
+  }, 
+  "@id": "http://52.210.135.27/api/item_sets/15", 
+  "@type": [
+    "o:ItemSet", 
+    "dctype:InteractiveResource"
+  ], 
+  "crowds:derivedAnnoCombine": "True", 
+  "crowds:derivedAnnoExternalize": "False", 
+  "crowds:derivedAnnoHumanReadable": "False", 
+  "crowds:derivedAnnoMotivatedBy": {
+    "@id": "oa:tagging", 
+    "o:label": "tagging"
+  }, 
+  "crowds:derivedAnnoSerialize": "True", 
+  "crowds:uiChoice": "madoc:boxdraw", 
+  "crowds:uiGroup": "madoc:compactForm", 
+  "dcterms:conformsTo": {
+    "@id": "http://xmlns.com/foaf/spec/#term_Person", 
+    "o:label": "Person"
+  }, 
+  "dcterms:description": "A crowd-source group for a person", 
+  "dcterms:hasPart": [
+    {
+      "@id": "http://52.210.135.27/api/items/11"
+    }, 
+    {
+      "@id": "http://52.210.135.27/api/items/12"
+    }, 
+    {
+      "@id": "http://52.210.135.27/api/items/13"
+    }, 
+    {
+      "@id": "http://52.210.135.27/api/items/14"
+    }
+  ], 
+  "dcterms:title": "Person", 
+  "o:created": {
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime", 
+    "@value": "2017-03-04T19:55:04+00:00"
+  }, 
+  "o:id": 15, 
+  "o:is_open": false, 
+  "o:is_public": true, 
+  "o:items": {
+    "@id": "http://52.210.135.27/api/items?item_set_id=15"
+  }, 
+  "o:owner": {
+    "@id": "http://52.210.135.27/api/users/1", 
+    "o:id": 1
+  }, 
+  "o:resource_class": {
+    "@id": "http://52.210.135.27/api/resource_classes/27", 
+    "o:id": 27
+  }, 
+  "o:resource_template": {
+    "@id": "http://52.210.135.27/api/resource_templates/6", 
+    "o:id": 6
+  }, 
+  "rdfs:label": "Person"
+}
