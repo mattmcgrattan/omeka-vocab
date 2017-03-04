@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:oa="http://www.w3.org/ns/oa#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:crowds="http://www.example.org/ns/crowd#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" 
+    >
+<!-- 0.1 draft, Matt McGrattan,  04/03/2017-->
+
+    <rdfs:Class rdf:about="http://www.example.org/ns/crowds#uiInputType">
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:comment>Defines which user input control is rendered in a crowd-sourcing system, for capturing the value of an annotation. For example: textbox, or listbox..</rdfs:comment>
+        <rdfs:label>uiInputType</rdfs:label>
+    </rdfs:Class>
+    
+    <rdfs:Class rdf:about="http://www.example.org/ns/crowds#uiSelectorType">
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:comment>Defines which user input control is rendered in a crowd-sourcing system, for selecting the target of an annotation.</rdfs:comment>
+        <rdfs:label>uiSelectorType</rdfs:label>
+    </rdfs:Class>
+    
+    <rdfs:Class rdf:about="http://www.example.org/ns/crowds#uiGroup">
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:comment>Defines how a group of UI input elements should be rendered as a group.</rdfs:comment>
+        <rdfs:label>uiGroup</rdfs:label>
+    </rdfs:Class>
+    
+    <rdfs:Class rdf:about="http://www.example.org/ns/crowds#uiMultiple">
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:range rdf:resource="xsd:boolean"/>
+        <rdfs:comment>Boolean: defines whether a particular UI group or element can appear multiple times.</rdfs:comment>
+        <rdfs:label>uiMultiple</rdfs:label>
+    </rdfs:Class>
+    
+    <rdfs:Class rdf:about="http://www.example.org/ns/crowds#uiChoice">
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:range rdf:resource="xsd:boolean"/>
+        <rdfs:comment>Boolean: defines whether a particular UI group is a choice.</rdfs:comment>
+        <rdfs:label>uiChoice</rdfs:label>
+    </rdfs:Class>
+    
+    <rdf:Property rdf:about="http://www.example.org/ns/crowds#derivedAnnoMotivatedBy">
+        <rdfs:range rdf:resource="http://www.w3.org/ns/oa#Motivation"/>
+        <rdfs:comment>The relationship between the derived Annotation produced from this user input, and a Motivation that describes the reason for the Annotation's creation.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:label>derivedAnnoMotivatedBy</rdfs:label>
+    </rdf:Property>
+
+    <rdf:Property rdf:about="http://www.example.org/ns/crowds#derivedAnnoBodyPurpose">
+        <rdfs:range rdf:resource="http://www.w3.org/ns/oa#Motivation"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:label>derivedAnnoBodyPurpose</rdfs:label>
+        <rdfs:comment>The purpose served by the resource in the body of the derived Annotation.</rdfs:comment>
+    </rdf:Property>
+
+
+    <rdf:Property rdf:about="http://www.example.org/ns/crowds#derivedAnnoBodyFormat">
+        <rdfs:range rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:label>derivedAnnoBodyFormat</rdfs:label>
+        <rdfs:comment>The format of the resource in the body of the derived Annotation (e.g. text/plain, application/html).</rdfs:comment>
+    </rdf:Property>
+    
+    <rdf:Property rdf:about="http://www.example.org/ns/crowds#derivedAnnoBodyType">
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:label>derivedAnnoBodyType</rdfs:label>
+        <rdfs:comment>The type of the resource in the body of the derived Annotation (e.g. TextualBody, ExternalResource, etc.).</rdfs:comment>
+    </rdf:Property>
+    
+    <rdfs:Class rdf:about="http://www.example.org/ns/crowds#derivedAnnoCombine">
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:range rdf:resource="xsd:boolean"/>
+        <rdfs:comment>Boolean: defines whether a particular set of putative annotations are to be combined into multiple annotation bodies in the same annotation (True), or stored as separate annotations (False).</rdfs:comment>
+        <rdfs:label>derivedAnnoCombine</rdfs:label>
+    </rdfs:Class>
+    
+    <rdfs:Class rdf:about="http://www.example.org/ns/crowds#derivedAnnoSerialize">
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:range rdf:resource="xsd:boolean"/>
+        <rdfs:comment>Boolean: defines whether an annotation body or set of annotation bodies should be stored as a serialized TextualBody, i.e. as a string.</rdfs:comment>
+        <rdfs:label>derivedAnnoSerialize</rdfs:label>
+    </rdfs:Class>
+    
+    <rdfs:Class rdf:about="http://www.example.org/ns/crowds#derivedAnnoExternalize">
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:range rdf:resource="xsd:boolean"/>
+        <rdfs:comment>Boolean: defines whether an annotation body or set of annotation bodies should be used to generate an external resource, for example a topic page in a CMS system, which should be linked as the source of the annotation.</rdfs:comment>
+        <rdfs:label>derivedAnnoExternalize</rdfs:label>
+    </rdfs:Class>
+    
+    <rdfs:Class rdf:about="http://www.example.org/ns/crowds#derivedAnnoHumanReadable">
+        <rdfs:isDefinedBy rdf:resource="http://www.example.org/ns/crowds#"/>
+        <rdfs:range rdf:resource="xsd:boolean"/>
+        <rdfs:comment>Boolean: defines whether an annotation body or set of annotation bodies should be converted to human readable plain text as a separate annotation body.</rdfs:comment>
+        <rdfs:label>derivedAnnoHumanReadable</rdfs:label>
+    </rdfs:Class>
+</rdf:RDF>
