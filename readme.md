@@ -103,7 +103,9 @@ Prefix: svcs
 Local: services.xml
 
 
+Example:
 
+[https://www.dropbox.com/s/2dsn81t86macm3t/Screenshot%202017-03-04%2018.53.15.png?dl=0](https://www.dropbox.com/s/2dsn81t86macm3t/Screenshot%202017-03-04%2018.53.15.png?dl=0)
 
 
 
