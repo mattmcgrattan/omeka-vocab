@@ -92,7 +92,7 @@ Namespace: http://www.w3.org/2000/01/rdf-schema#
 
 Prefix: rdfs
 
-Local:  rdf-schema.rdf
+Local:  rdfs-namespace.xml
 
 ##SVCS SIOC Services Ontology Module
 
