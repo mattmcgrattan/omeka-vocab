@@ -67,6 +67,12 @@
         <rdfs:comment>The format of the resource in the body of the derived Annotation (e.g. text/plain, application/html).</rdfs:comment>
     </rdf:Property>
     
+        <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#derivedAnnoBodyLabelParts">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
+        <rdfs:label>derivedAnnoBodyLabelParts</rdfs:label>
+        <rdfs:comment>Field or fields in the Crowd Source group to concatenate to produce the label for the annotation body.</rdfs:comment>
+    </rdf:Property>
+
     <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#derivedAnnoBodyType">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
         <rdfs:label>derivedAnnoBodyType</rdfs:label>
