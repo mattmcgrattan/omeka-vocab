@@ -25,6 +25,12 @@
         <rdfs:label>uiSelectorType</rdfs:label>
     </rdf:Property>
     
+        <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiSelectorValue">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
+        <rdfs:comment>Defines which value is preset for a user input control as rendered in a crowd-sourcing system, e.g. preset XYWH coordinates for a box, or preset XY coordinates for a pointer.</rdfs:comment>
+        <rdfs:label>uiSelectorValue</rdfs:label>
+    </rdf:Property>
+    
     <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiGroup">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
         <rdfs:comment>Defines how a group of UI input elements should be rendered as a group.</rdfs:comment>
@@ -36,6 +42,13 @@
         <rdfs:range rdf:resource="xsd:boolean"/>
         <rdfs:comment>Boolean: defines whether a particular UI group or element can appear multiple times.</rdfs:comment>
         <rdfs:label>uiMultiple</rdfs:label>
+    </rdf:Property>
+    
+      <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiRequired">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
+        <rdfs:range rdf:resource="xsd:boolean"/>
+        <rdfs:comment>Boolean: defines whether a particular UI group or element MUST have a value.</rdfs:comment>
+        <rdfs:label>uiRequired</rdfs:label>
     </rdf:Property>
     
     <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiChoice">
