@@ -11,7 +11,7 @@
     xmlns:crowds="http://www.digirati.com/ns/crowds#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" 
     >
-<!-- 0.1 draft, Matt McGrattan,  04/03/2017-->
+<!-- 0.3 draft, Matt McGrattan,  20/05/2017-->
 
     <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiInputType">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
