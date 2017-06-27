@@ -19,6 +19,12 @@
         <rdfs:label>uiInputType</rdfs:label>
     </rdf:Property>
     
+     <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiInputOptions">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
+        <rdfs:comment>Provides options refining the rendering of an input control, such as values for a drop-down, for capturing the value of an annotation. For example: textbox, or listbox..</rdfs:comment>
+        <rdfs:label>uiInputOptions</rdfs:label>
+    </rdf:Property>
+    
     <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiSelectorType">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
         <rdfs:comment>Defines which user input control is rendered in a crowd-sourcing system, for selecting the target of an annotation.</rdfs:comment>
