@@ -73,12 +73,7 @@
         <rdfs:comment>UI: Draw a BOX to capture #xywh values for a selector.</rdfs:comment>
         <rdfs:label>boxdraw</rdfs:label>
     </rdf:Property>
-    
-    <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#point">
-        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
-        <rdfs:comment>UI: Draw a POINT to capture #xywh values for a selector.</rdfs:comment>
-        <rdfs:label>point</rdfs:label>
-    </rdf:Property>
+   
     
     <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#ellipse">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
