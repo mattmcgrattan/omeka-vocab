@@ -98,5 +98,10 @@
         <rdfs:label>polygon</rdfs:label>
     </rdf:Property>
     
+     <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#pin">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
+        <rdfs:comment>UI: Drop a pin for a selector.</rdfs:comment>
+        <rdfs:label>pin</rdfs:label>
+    </rdf:Property>
     
 </rdf:RDF>
