@@ -19,6 +19,23 @@
         <rdfs:label>textbox</rdfs:label>
     </rdf:Property>
     
+     <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#fallback_autocomplete">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
+        <rdfs:comment>UI: Render an Autocomplete field to capture input for value of annotation body, and fallback to additional input methods.</rdfs:comment>
+        <rdfs:label>textbox</rdfs:label>
+    </rdf:Property>
+    
+         <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#fallback_boolean">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
+        <rdfs:comment>UI: Boolean input, and fallback to additional input methods on True.</rdfs:comment>
+        <rdfs:label>textbox</rdfs:label>
+    </rdf:Property>
+    
+        <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#textbox">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
+        <rdfs:comment>UI: Render a TEXTBOX to capture input for value of annotation body.</rdfs:comment>
+        <rdfs:label>textbox</rdfs:label>
+    </rdf:Property>
     <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#textarea">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
         <rdfs:comment>UI: Render a TEXTAREA to capture input for value of annotation body.</rdfs:comment>
