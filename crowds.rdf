@@ -57,6 +57,13 @@
         <rdfs:label>uiRequired</rdfs:label>
     </rdf:Property>
     
+     <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiHidden">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
+        <rdfs:range rdf:resource="xsd:boolean"/>
+        <rdfs:comment>Boolean: defines whether a particular UI group or element is displayed in the UI.</rdfs:comment>
+        <rdfs:label>uiRequired</rdfs:label>
+    </rdf:Property>
+    
     <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiChoice">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
         <!--<rdfs:range rdf:resource="xsd:boolean"/>-->
