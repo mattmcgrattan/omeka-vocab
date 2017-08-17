@@ -43,6 +43,12 @@
         <rdfs:label>uiGroup</rdfs:label>
     </rdf:Property>
     
+    <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiFormGroup">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
+        <rdfs:comment>Defines a named form group of UI input elements which should be rendered as a group (if uiGroup is set to form).</rdfs:comment>
+        <rdfs:label>uiFormGroup</rdfs:label>
+    </rdf:Property>
+    
     <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiMultiple">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
         <rdfs:range rdf:resource="xsd:boolean"/>
