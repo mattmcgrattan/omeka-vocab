@@ -19,6 +19,12 @@
         <rdfs:label>uiInputType</rdfs:label>
     </rdf:Property>
     
+    <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiComponent">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
+        <rdfs:comment>Provides a hint for which annotation studio component: resource provider; transcription; bookmarking; flagging; tagging; should load the annotation.</rdfs:comment>
+        <rdfs:label>uiComponent</rdfs:label>
+    </rdf:Property>
+    
      <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiInputOptions">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
         <rdfs:comment>Provides options refining the rendering of an input control, such as values for a drop-down, for capturing the value of an annotation. For example: textbox, or listbox..</rdfs:comment>
