@@ -55,6 +55,12 @@
         <rdfs:label>listbox</rdfs:label>
     </rdf:Property>
     
+        <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#dropdown">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
+        <rdfs:comment>UI: Render a DROPDOWN LIST to capture input for value of annotation body.</rdfs:comment>
+        <rdfs:label>dropdown</rdfs:label>
+    </rdf:Property>
+    
     <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#combobox">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
         <rdfs:comment>UI: Render a COMBOBOX to capture input for value of annotation body.</rdfs:comment>
