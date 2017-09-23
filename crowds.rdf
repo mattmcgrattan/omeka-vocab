@@ -31,6 +31,12 @@
         <rdfs:label>uiInputOptions</rdfs:label>
     </rdf:Property>
     
+         <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiInputDefaultValue">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
+        <rdfs:comment>Provides default value for any input control.</rdfs:comment>
+        <rdfs:label>uiInputOptions</rdfs:label>
+    </rdf:Property>
+    
     <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiSelectorType">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
         <rdfs:comment>Defines which user input control is rendered in a crowd-sourcing system, for selecting the target of an annotation.</rdfs:comment>
