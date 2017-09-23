@@ -19,6 +19,12 @@
         <rdfs:label>textbox</rdfs:label>
     </rdf:Property>
     
+    <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#nullableCaptureModel">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
+        <rdfs:comment>UI: nullable capture model. Render options, following inputOptions, with the possibility of not following through to the linked capture model.</rdfs:comment>
+        <rdfs:label>nullableCaptureModel</rdfs:label>
+    </rdf:Property>
+    
      <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#fallback_autocomplete">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
         <rdfs:comment>UI: Render an Autocomplete field to capture input for value of annotation body, and fallback to additional input methods.</rdfs:comment>
@@ -97,6 +103,11 @@
         <rdfs:label>checkbox</rdfs:label>
     </rdf:Property>
 
+        <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#capturemodel">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
+        <rdfs:comment>UI: Render an additional capture model.</rdfs:comment>
+        <rdfs:label>captureModel</rdfs:label>
+    </rdf:Property>
     
     <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#button">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
