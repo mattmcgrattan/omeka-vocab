@@ -55,6 +55,12 @@
         <rdfs:label>textbox</rdfs:label>
     </rdf:Property>
     
+            <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#hiddenvalue">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
+        <rdfs:comment>UI: Hidden form field which can carry values.</rdfs:comment>
+        <rdfs:label>textbox</rdfs:label>
+    </rdf:Property>
+    
     <rdf:Property rdf:about="http://www.digirati.com/ns/madoc#textarea">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/madoc#"/>
         <rdfs:comment>UI: Render a TEXTAREA to capture input for value of annotation body.</rdfs:comment>
