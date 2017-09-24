@@ -31,6 +31,12 @@
         <rdfs:label>uiInputOptions</rdfs:label>
     </rdf:Property>
     
+         <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#externalResourceModel">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
+        <rdfs:comment>Dereference to return a description, model, or schema for the creation of an external resource from captured content.</rdfs:comment>
+        <rdfs:label>externalResourceModel</rdfs:label>
+    </rdf:Property>
+    
          <rdf:Property rdf:about="http://www.digirati.com/ns/crowds#uiInputDefaultValue">
         <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
         <rdfs:comment>Provides default value for any input control.</rdfs:comment>
