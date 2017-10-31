@@ -156,4 +156,16 @@
         <rdfs:comment>Boolean: defines whether an annotation body or set of annotation bodies should be converted to human readable plain text as a separate annotation body.</rdfs:comment>
         <rdfs:label>derivedAnnoHumanReadable</rdfs:label>
     </rdf:Property>
+
+    <oa:Motivation rdf:about="http://www.digirati.com/ns/crowds#completed">
+        <rdfs:label>completed</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
+        <rdfs:comment>The motivation for when the user intends to associate a "complete" state with the Target.</rdfs:comment>
+    </oa:Motivation>
+
+    <oa:Motivation rdf:about="http://www.digirati.com/ns/crowds#drafting">
+        <rdfs:label>drafting</rdfs:label>
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/crowds#"/>
+        <rdfs:comment>The motivation for when the user intends to associate a draft Annotation with the Target.</rdfs:comment>
+    </oa:Motivation>
 </rdf:RDF>
