@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:oa="http://www.w3.org/ns/oa#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:topics="http://www.digirati.com/ns/topics#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" 
+    >
+<!-- 0.1 draft, Matt McGrattan,  17/05/2018-->
+
+    <owl:Class rdf:about="http://www.digirati.com/ns/topics#Theme">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/topics#"/>
+        <rdfs:comment>Theme of a page or topic</rdfs:comment>
+        <rdfs:label>Theme</rdfs:label>
+    </owl:Class>
+    
+</rdf:RDF>
