@@ -18,5 +18,11 @@
         <rdfs:comment>Theme of a page or topic</rdfs:comment>
         <rdfs:label>Theme</rdfs:label>
     </owl:Class>
+
+    <owl:Class rdf:about="http://www.digirati.com/ns/topics#Tribe">
+        <rdfs:isDefinedBy rdf:resource="http://www.digirati.com/ns/topics#"/>
+        <rdfs:comment>Tribe, or similar social or political group.</rdfs:comment>
+        <rdfs:label>Tribe</rdfs:label>
+    </owl:Class>
     
 </rdf:RDF>
